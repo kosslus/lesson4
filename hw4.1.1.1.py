@@ -15,6 +15,6 @@ elif operation == '/':
 elif operation == '**':
     result = x ** y
 elif operation == '^': #anything
-    result = math.sqrt(x/y)
+    result = math.sqrt(x)
 if result is not None:
     print(result)
