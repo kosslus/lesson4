@@ -1,0 +1,16 @@
+#a = list(input(":"))
+#a += list(input(":"))
+#a += list(input(":"))
+#a += list(input(":"))
+#a += list(input(":"))
+
+#print(a)
+
+our_list = []
+a= input(":")
+if a[0]== '['and a[-1] ==']':
+
+    a = ''.join(a[1:-1].split(',')).replace('  ', " ").split()
+    our_list +=a
+else:
+    our_list.append(a)
