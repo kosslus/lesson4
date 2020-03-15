@@ -1,0 +1,12 @@
+year = 0
+while year != ValueError:
+    try:
+
+        year=int(input(":"))
+        break
+    except ValueError:
+        print("Введите число!!!!")
+if(year % 4 == 0) and (year % 100 != 0) or (year % 400 == 0):
+    print("Yes")
+else:
+    print(year + 'No')
