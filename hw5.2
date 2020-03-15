@@ -1,0 +1,9 @@
+a = int(input())
+
+simple = {}
+for i in range(2, a+1):
+    for j in range(2,int(i**0.5)+1):
+        while i % j == 0:
+            i, simple [j] =i//j, simple [j]+i if j in simple else 1
+            simple [i] = simple [i]+1 if i in simple else 1
+            print(simple)
