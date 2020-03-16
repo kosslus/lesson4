@@ -1,8 +1,8 @@
 year = 0
-while year != ValueError:
+while 1 == 1:
     try:
 
-        year=int(input(":"))
+        year = int(input(":"))
         break
     except ValueError:
         print("Введите число!!!!")
