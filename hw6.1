@@ -1,0 +1,8 @@
+acro_str = "very cool phrase"
+def k_str(str):
+    new_str = str[0]
+    for k in range(len(str)):
+        if (str[k -1]==" "):
+            new_str += str[k]
+    return new_str.upper()
+print(k_str(acro_str))
