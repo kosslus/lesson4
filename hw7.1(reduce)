@@ -1,0 +1,10 @@
+import functools
+def my_map(func, iterable):
+   return functools.reduce(lambda acc, value: acc + [func(value)], iterable, [])
+
+res = my_map(lambda x: x + 2, range(12))
+res2 = list(map(lambda x: x + 2, range(12)))
+print(res)
+print(res2)
+
+assert res == res2
