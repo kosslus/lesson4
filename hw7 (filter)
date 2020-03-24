@@ -1,0 +1,6 @@
+def tom(string):
+    return 'o' in string.lower()
+anything =["solo", "polo", "cricket", "swimming", 'football', 'hockey']
+some = list(filter(tom, anything))
+final = list(filter(lambda string: 'o' in string.lower(), anything))
+print(final)
