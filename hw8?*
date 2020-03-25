@@ -1,0 +1,5 @@
+import os
+path = '' #путь к пайтону
+res = os.listdir(path)
+for tom in res:
+print(tom)
